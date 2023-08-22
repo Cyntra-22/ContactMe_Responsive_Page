@@ -26,3 +26,13 @@
     background-color: pink;
     padding: 20px;
 }
+
+.form-control{
+    height: 52px;
+    background: white;
+    color: black;
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none! important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
