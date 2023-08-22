@@ -33,7 +33,7 @@
     color: black;
     font-size: 14px;
     border-radius: 2px;
-    box-shadow: none! important;
+    box-sizing: none! important;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -45,4 +45,13 @@
     font-size: 18px;
     padding-left: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 80%;
+    }
 }
