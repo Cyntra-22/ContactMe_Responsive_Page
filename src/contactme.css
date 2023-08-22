@@ -14,3 +14,15 @@
   transform: translate(-50%, -50%);
 }
 
+.row{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.col-md-7{
+    padding: 20px;
+}
+
+.col-md-5{
+    background-color: pink;
+    padding: 20px;
+}
